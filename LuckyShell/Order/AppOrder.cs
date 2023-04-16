@@ -1,8 +1,8 @@
 ﻿namespace LuckyShell.Order;
 
-public class OrderApp : ShellOrder
+public class AppOrder : ShellOrder
 {
-    public OrderApp(string appName, string[] args)
+    public AppOrder(string appName, string[] args)
     {
         AppName = appName;
         Args = args;
@@ -10,4 +10,8 @@ public class OrderApp : ShellOrder
 
     public string AppName { get; set; }
     public string[] Args { get; set; }
+    public void Run()
+    {
+        throw new NotImplementedException();
+    }
 }

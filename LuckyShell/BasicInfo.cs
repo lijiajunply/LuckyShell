@@ -1,6 +1,6 @@
 ﻿namespace LuckyShell;
 
-public class BasicInfo
+public static class BasicInfo
 {
     
 }

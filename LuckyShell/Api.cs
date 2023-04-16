@@ -1,6 +1,6 @@
 ﻿namespace LuckyShell;
 
-public class Api
+public static class Api
 {
     
 }
